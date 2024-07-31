@@ -3,7 +3,6 @@ asgiref
 bcrypt
 beautifulsoup4
 blinker
-Brlapi
 Brotli
 certifi
 chardet
