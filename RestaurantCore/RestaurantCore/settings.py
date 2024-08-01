@@ -31,16 +31,12 @@ load_dotenv(env_path)
 # SECURITY WARNING: keep the secret key used in production secret!
 
 # Initialize environment variables
-env = environ.Env(
-    # set casting, default value
-    DEBUG=(bool, False)
-)
-
-# Reading .env file
-environ.Env.read_env("/django_backend/RestaurantCore/.env")
 
 # Raises Django's ImproperlyConfigured exception if DJANGO_SECRET_KEY not in os.environ
-SECRET_KEY = env("DJANGO_SECRET_KEY")
+SECRET_KEY = os.environ.get(
+    "DJANGO_SECRET_KEY",
+    "django-insecure-k&_2!-&#r5^%9f#=$rtnyvn*fw^*^=8!74n2!&5_)o1vvvvru8",
+)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
