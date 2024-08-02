@@ -45,7 +45,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["randomextra23.pythonanywhere.com", "127.0.0.1"]
 
-CSRF_TRUSTED_ORIGINS = ['https://randomextra23.pythonanywhere.com']
+CSRF_TRUSTED_ORIGINS = ["https://randomextra23.pythonanywhere.com"]
 
 # Application definition
 
@@ -73,7 +73,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:3000", "http://127.0.0.1:3000"]
+CORS_ALLOWED_ORIGINS = ["https://full-stack-app-next-frontend-kqyf.vercel.app/"]
 
 ROOT_URLCONF = "RestaurantCore.urls"
 
