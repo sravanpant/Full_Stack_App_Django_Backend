@@ -45,6 +45,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["randomextra23.pythonanywhere.com", "127.0.0.1"]
 
+CSRF_TRUSTED_ORIGINS = ['https://randomextra23.pythonanywhere.com']
+
 # Application definition
 
 INSTALLED_APPS = [
