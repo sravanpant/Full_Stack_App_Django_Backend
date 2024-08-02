@@ -73,7 +73,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-CORS_ALLOWED_ORIGINS = ["https://full-stack-app-next-frontend-kqyf.vercel.app/"]
+CORS_ALLOWED_ORIGINS = ["https://restaurantmenu.sravanpant.tech/"]
 
 ROOT_URLCONF = "RestaurantCore.urls"
 
