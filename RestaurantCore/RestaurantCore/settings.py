@@ -43,7 +43,7 @@ SECRET_KEY = os.environ.get(
 
 DEBUG = False
 
-ALLOWED_HOSTS = ["full-stack-app-django-backend.onrender.com"]
+ALLOWED_HOSTS = ["randomextra23.pythonanywhere.com", "127.0.0.1"]
 
 # Application definition
 
